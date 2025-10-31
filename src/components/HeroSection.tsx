@@ -20,9 +20,11 @@ const HeroSection = () => {
             </p>
             
             <div className="pt-4">
-              <Button variant="cta">
-                Registrarse
-              </Button>
+              <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                <Button variant="cta">
+                  Registrarse
+                </Button>
+              </a>
             </div>
           </div>
           
