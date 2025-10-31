@@ -20,16 +20,5 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-
-    <script>
-      // Espera a que el contenido se cargue (útil si el botón se crea dinámicamente)
-      document.addEventListener("click", function (e) {
-        if (e.target && e.target.textContent.trim().toLowerCase() === "registrarse") {
-          e.preventDefault();
-          window.location.href = "https://www.google.com.co";
-        }
-      });
-    </script>
   </body>
 </html>
-
