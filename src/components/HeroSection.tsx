@@ -2,6 +2,12 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image.jpg";
 
 const HeroSection = () => {
+  
+  const handleRegisterClick = () => {
+    // Redirigir a Google como solicitaste
+    window.location.href = 'https://www.google.com';
+  };
+  
   return (
     <section className="py-12 md:py-20">
       <div className="container mx-auto px-4">
@@ -20,7 +26,11 @@ const HeroSection = () => {
             </p>
             
             <div className="pt-4">
-              <Button variant="cta">
+              <Button 
+                variant="cta" 
+                onClick={handleRegisterClick}
+                className="cursor-pointer"
+              >
                 Registrarse
               </Button>
             </div>
